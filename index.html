@@ -317,11 +317,12 @@ Customise the visual style and appearance of your guide.
       }
 
       .step-by-step li:before {
-        background color: #738a99;          /* CHANGE THE INSTRUCTION NUMBER BACKGROUND COLOR HERE */
-        border-top-left-radius: 50px;          /* CHANGE THE INSTRUCTION SHAPE HERE */
-        border-bottom-left-radius: 50px;
-      }
-
+  content: "•"; /* Add content */
+  background: #738a99; /* Set background color */
+  border-top-left-radius: 50px; /* Round the top-left corner */
+  border-bottom-left-radius: 50px; /* Round the bottom-left corner */
+  /* Other styling properties as needed */
+}
 
       /* Object styles */
       .step-by-step img,
